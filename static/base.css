@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+H1 {
+    padding: 30px 10px;
+}
+
+
+ul {
+    padding: 5px;
+}
+
+ul li {
+    padding: 5px;
+    border-bottom: 1px solid #dfdfdf
+}
+
+span {
+    border-radius: 5px;
+    background: gray;
+    padding: 5px;
+    display: inline-block;
+    color:white;
+}
+
+span.livre {
+    background-color: green;
+}
+
+
+span.ocupado {
+    background-color: red;
+}
