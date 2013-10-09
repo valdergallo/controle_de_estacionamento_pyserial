@@ -22,7 +22,6 @@ def home(db, post_id=None):
         c = db.execute('SELECT * FROM vagas WHERE id = ?', (post_id,))
 
     rows = c.fetchall()
-    print rows
 
     return template('vagas', vagas=rows)
 
