@@ -11,7 +11,7 @@ Requerimentos
 * SetupTools (https://pypi.python.org/pypi/setuptools)
 * Pyserial (http://pyserial.sourceforge.net/)
 * Bottle (http://bottlepy.org/)
-* Bottle SQlite (http://bottlepy.org/docs/dev/plugins/sqlite.html)
+* Bottle SQLite (http://bottlepy.org/docs/dev/plugins/sqlite.html)
 
 
 Instalar pacotes
