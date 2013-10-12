@@ -22,14 +22,14 @@ easy_install pip
 pip install -r requirements.txt
 ```
 
-Run WebServer
+Executar WebServer
 =============
 
 ```
 python runserver.py
 ```
 
-Run SocketServer
+Executar SocketServer
 ================
 
 ```
