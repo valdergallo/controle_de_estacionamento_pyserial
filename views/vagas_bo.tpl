@@ -8,6 +8,7 @@
 
 <h1>Lista de Vagas</h1>
 
+
 % for vaga in vagas:
 <div class='box
     % if vaga[2] == 1:
@@ -21,6 +22,13 @@
         Livre
     % end
 </div>
+
+% if vaga[0] % 6 == 0:
+
+<h4>{{ vagas_mensagem }}</h4>
+
+%end
+
 % end
 
 </body>
