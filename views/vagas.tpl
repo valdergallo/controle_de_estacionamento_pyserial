@@ -7,6 +7,7 @@
 <body>
 
 <h1>Lista de Vagas</h1>
+<h4>{{ vagas_mensagem }}</h4>
 
 <ul>
   % for vaga in vagas:
