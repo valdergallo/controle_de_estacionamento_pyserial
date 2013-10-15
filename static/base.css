@@ -18,6 +18,17 @@ ul li {
     border-bottom: 1px solid #dfdfdf
 }
 
+div.box {
+    padding: 10px;
+    margin: 5px 0px 5px 5px;
+    border:1px solid gray;
+    border-radius: 5px;
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    color:white;
+}
+
 span {
     border-radius: 5px;
     background: gray;
@@ -26,11 +37,11 @@ span {
     color:white;
 }
 
-span.livre {
+span.livre , div.box.livre{
     background-color: green;
 }
 
 
-span.ocupado {
+span.ocupado, div.box.ocupado {
     background-color: red;
 }
