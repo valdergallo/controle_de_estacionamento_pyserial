@@ -8,6 +8,10 @@ H1, H4 {
     padding: 30px 10px;
 }
 
+hr {
+    border:0;
+    width: 10px;
+}
 
 ul {
     padding: 5px;
@@ -18,14 +22,35 @@ ul li {
     border-bottom: 1px solid #dfdfdf
 }
 
+div.content {
+    min-width: 350px;
+    width:40%;
+    float:left;
+}
+
+div.content-min {
+    border-radius: 5px;
+    margin-right: 3%;
+    margin-top:10%;
+    margin-bottom:10%;
+    margin-left: 1%;
+    background: gray;
+    padding: 10px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    color:white;
+}
+
 div.box {
     padding: 10px;
     margin: 5px 0px 5px 5px;
     border:1px solid gray;
     border-radius: 5px;
     display: inline-block;
-    width: 150px;
-    height: 200px;
+    width: 130px;
+    height: 180px;
     color:white;
 }
 

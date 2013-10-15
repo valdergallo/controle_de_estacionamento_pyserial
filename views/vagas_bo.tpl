@@ -9,7 +9,9 @@
 <h1>Lista de Vagas</h1>
 
 
+<div class='content'>
 % for vaga in vagas:
+
 <div class='box
     % if vaga[2] == 1:
         ocupado'>
@@ -24,8 +26,15 @@
 </div>
 
 % if vaga[0] % 6 == 0:
+</div>
 
+% if vaga[0] != 12:
+<div class='content-min'>
 <h4>{{ vagas_mensagem }}</h4>
+</div>
+% end
+
+<div class='content'>
 
 %end
 
