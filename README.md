@@ -14,6 +14,12 @@ Requerimentos
 * Bottle SQLite (http://bottlepy.org/docs/dev/plugins/sqlite.html)
 
 
+Instalar Python no Windows
+==========================
+
+* Using Python on Windows (http://docs.python.org/2/using/windows.html)
+
+
 Instalar pacotes
 ================
 
