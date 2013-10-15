@@ -31,7 +31,7 @@ def home(db, vaga=None):
     rows = c.fetchall()
 
     # envia os dados para o template
-    return template('vagas', vagas=rows)
+    return template('vagas_bo', vagas=rows)
 
 run(host='0.0.0.0', port=8080, debug=True)
 
