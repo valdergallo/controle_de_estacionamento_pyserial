@@ -21,6 +21,9 @@ def update_content(con, line_value):
     print vagas
 
     for i in vagas:
+        if not i:
+            # caso i seja nulo ir para o próximo valor
+            continue
         # pega uma vaga
         vaga = i[:2]
         # pega um status de uma vaga
