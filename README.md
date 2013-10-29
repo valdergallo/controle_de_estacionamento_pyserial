@@ -24,10 +24,10 @@ Download do Python 32bits 2.7
 Após a instalação do Python é preciso adicionar o diretório do Python e o dos Scripts no Path do Windows.
 
 * Abrir o "Painel de Controle" do Windows
-*Entrar em "Sistema" e clicar na opção "Configurações avançadas do sistema"
-*Na aba "Avançado", clicar no botão "Variáveis de Ambiente"
+* Entrar em "Sistema" e clicar na opção "Configurações avançadas do sistema"
+* Na aba "Avançado", clicar no botão "Variáveis de Ambiente"
 * Selecionar a variável do sistema "Path" e clicar no botão "Editar..."
-*Adicionar o diretório de instalação do Python na caixa de texto
+* Adicionar o diretório de instalação do Python na caixa de texto
 
 Normalmente o diretório do Python é:
 
