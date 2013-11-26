@@ -2,7 +2,7 @@
 <head>
   <title>Vagas</title>
   <link rel="stylesheet" href="static/base.css" type="text/css">
-  <meta http-equiv="refresh" content="1" />
+  <meta http-equiv="refresh" content="2" />
 </head>
 <body>
 
