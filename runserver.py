@@ -45,4 +45,4 @@ def home(db, vaga=None):
     return template('vagas_bo', vagas=rows, vagas_mensagem=mensagem)
 
 # inicia o webserver do bottle com debug na porta 8080
-run(host='0.0.0.0', port=8080, debug=True)
+run(host='0.0.0.0', port=8080, debug=False, server='flup')
