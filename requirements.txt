@@ -1,4 +1,4 @@
 bottle==0.11.6
 bottle-sqlite==0.1.2
 pyserial==2.6
-flup>=1.0.3
+Paste==1.7.5.1
