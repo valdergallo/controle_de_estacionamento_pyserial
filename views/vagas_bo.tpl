@@ -2,9 +2,15 @@
 <head>
   <title>Vagas</title>
   <link rel="stylesheet" href="static/base.css" type="text/css">
-  <meta http-equiv="refresh" content="1" />
+  <script type="text/JavaScript">
+    <!--
+    function timedRefresh(timeoutPeriod) {
+        setTimeout("location.reload(true);",timeoutPeriod);
+    }
+    //   -->
+</script>
 </head>
-<body>
+<body onload="JavaScript:timedRefresh(2000);">
 
 <h1>Lista de Vagas</h1>
 
