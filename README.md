@@ -1,7 +1,7 @@
 Vagas
 =====
 
-Controle de vagas com saída para website
+Controle de vagas de estacionamento com saída para website
 
 
 Requerimentos
